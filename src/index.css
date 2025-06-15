@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default.css";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+/*body {*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*    background-image: url("https://images.pexels.com/photos/2740956/pexels-photo-2740956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
+/*    background-size: 100%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-attachment: fixed;*/
+
+/*}*/
+#container {
+    text-align: center;
+}
+#quote-box {
+    background-color: lightgray;
+    color: black;
+    width: 500px;
+    border: 2px solid gray;
+    margin: auto;
+    display: none;
+}
+
+#reset-button {
+    display: none;
+
+}
+#quote-button, #reset-button {
+    margin: 10px auto;
+
+}
